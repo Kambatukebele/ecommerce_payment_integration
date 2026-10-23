@@ -1,5 +1,13 @@
+import Announcement from "./components/Announcement";
+import Header from "./components/Header";
+
 const App = () => {
-  return <div>E-commerce ready</div>;
+  return (
+    <main className="font-poppins">
+      <Announcement />
+      <Header />
+    </main>
+  );
 };
 
 export default App;
